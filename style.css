@@ -31,19 +31,21 @@ body {
     }
 }
 
-.main-container {
+main {
   max-width: 320px;
   background-color: #fff;
   border-radius: var(--radius-size);
 }
 
 @media screen and (min-width: 1000px) {
-  .main-container {
+  main {
     max-width: 28%;
   }
 }
 
-.main-container img {
+main img {
+  width: 100%;
+  height: 100%;
   border-top-left-radius: var(--radius-size);
   border-top-right-radius: var(--radius-size);
 }
@@ -58,8 +60,9 @@ body {
   padding: 1.8rem;
 }
 
-.content h3 {
+.content h1 {
   color: var(--dark-blue);
+  font-size: 1.2rem;
   font-weight: 900;
   margin: 0;
 }
